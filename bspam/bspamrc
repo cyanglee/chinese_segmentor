@@ -1,0 +1,58 @@
+# A comma delimited list of files that make up the "good" corpora.
+# Files ending in '.gz' are assumed to be gzip archives, and are run
+# through 'gzip -dc'.
+# good-corpora
+# A comma delimited list of files that make up the "bad" corpora.
+# Files ending in '.gz' are assumed to be gzip archives, and are run
+# through 'gzip -dc'.
+# bad-corpora
+
+# Enable decoding of spammer's whitespace tricks ('f r e e' and
+# 'f.r.e.e' become 'free').  Default is 1 (on).
+whitespace-tricks 1
+
+# Don't let bspam cheat by looking at spam assassin headers.  Default
+# is 1 (on).
+remove-spam-assassin-headers 1
+
+# Erase HTML comments.  Spammers hide bad words with HTML comments.
+# For example: Mort<!--random-->gage. Default is 1 (on).
+remove-html-comments 1
+
+# Simply parse HTML (s/<[^>]*>//g).  The game here is to get rid of
+# bogus tags spammers sometimes use to hide bad words.  For example:
+# 'Via<BOGUS>gara'. Default is 1 (on).
+parse-html-simply 1
+
+# Fully parse HTML.  This is slower than the simple option.  It makes
+# tune run about 2x slower on my corpus.  Also, this requires that you
+# have HTML::TreeBuilder and its attendant modules installed.  If
+# HTML::TreeBuilder cannot be found, the scripts will silently revert
+# to simple html parsing as described above.
+#
+# With full parsing, tokenizing is more accurate, and it keeps track of
+# background and font colors so that invisible text is discarded.
+# Also this option can help defeat spammers' "slice and dice"
+# technique (a big table with chunks of text in each cell).
+# Fortunately, this technique is rare (as of this writing).  Default
+# is 0 (off).
+parse-html-fully 0
+
+# Lowercase all text.  If your corpora are big enough (>1000 messages)
+# you might consider turning this off.  Default is 1 (on).
+case-insensitive 1
+
+# Mark tokens in To:, From:, From, Subject header specially.  Default
+# is 1 (on).
+special-headers 1
+
+# Mark tokens in URLs specially.  Default is 1 (on).
+mark-urls 1
+
+# Number of times a token can be counted in an incoming spam.  Default
+# is 1.  If short spams are getting through, consider 2 or more.
+multiplicity 1
+
+# If turned on, quiet-headers means that the only header bspam will
+# add is the X-BSpam-Verdict header.  Default is 0 (off).
+quiet-headers 0

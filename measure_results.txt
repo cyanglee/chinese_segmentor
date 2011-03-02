@@ -1,0 +1,86 @@
+Total files: 299
+ham: 111
+spam: 189
+accuracy: 94.30%
+
+Time:Sat Apr 19 15:11:05 2008
+------------------------------
+Total files: 1499
+ham: 708, should be, 629
+spam: 792, should be, 871
+accuracy: 94.70%
+
+Time:Sat Apr 19 16:11:39 2008
+------------------------------
+Total files: 299
+ham: 131, should be, 103
+spam: 169, should be, 197
+accuracy: 90.60%
+model: 000...099
+
+Time:Sun Apr 20 00:36:10 2008
+------------------------------
+File group: 1
+Total files: 599
+ham: 250, should be, 
+spam: 350, should be, 
+accuracy: 41.60%
+
+Time:Sun Apr 20 19:18:01 2008
+------------------------------
+Total files: 1799
+File groups: 100|101|102|103|104|105
+Ham: 836, should be, 582
+Spam: 964, should be, 1218
+Accuracy: 85.90%
+
+Time:Sun Apr 20 23:30:30 2008
+------------------------------
+Total files: 899
+File groups: 051|052|053
+Ham: 315, should be, 230
+Spam: 585, should be, 670
+Accuracy: 90.60%
+
+Time:Mon Apr 21 00:01:06 2008
+------------------------------
+Total files: 299
+File groups: 109
+Ham: 131, should be, 89
+Spam: 169, should be, 211
+Accuracy: 85.90%
+
+Time:Mon Apr 21 00:16:51 2008
+------------------------------
+Total files: 299
+File groups: 109
+Ham: 111, should be, 89
+Spam: 189, should be, 211
+Accuracy: 92.60%
+
+Time:Mon Apr 21 14:26:54 2008
+------------------------------
+Total files: 1799
+File groups: 021|022|023|110|111|112
+Ham: 825, should be, 698
+Spam: 975, should be, 1102
+Accuracy: 92.90%
+
+Time:Thu Apr 24 22:49:59 2008
+------------------------------
+Total files: 10799
+File groups: 000|001|002|110|111|112|120|121|122|130|131|132|140|141|142|150|151|152|160|161|162|170|171|172|180|181|182|190|191|192|200|201|202|210|211|212
+Ham: 4610, should be, 3595
+Spam: 6190, should be, 7205
+Accuracy: 90.60%
+
+Time:Thu May 22 00:23:59 2008
+------------------------------
+Total files: 299
+File groups: 002
+Ham: 77, should be, 60
+Spam: 223, should be, 240
+Accuracy: -1699.00%
+
+Time:Thu May 22 16:18:26 2008
+------------------------------

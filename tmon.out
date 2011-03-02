@@ -1,0 +1,847 @@
+#fOrTyTwO
+$hz=100;
+$XS_VERSION='DProf 20050603.00';
+# All values are given in HZ
+$over_utime=4; $over_stime=3; $over_rtime=7;
+$over_tests=10000;
+$rrun_utime=5; $rrun_stime=0; $rrun_rtime=5;
+$total_marks=709                                                                                                                                                                                   
+
+PART2
+& 2 main BEGIN
++ 2
+& 3 strict bits
++ 3
+- 3
+& 4 strict import
++ 4
+- 4
+- 2
++ 2
+& 5 ChiSegmenter BEGIN
++ 5
++ 4
+- 4
+- 5
++ 5
+& 6 Memoize BEGIN
++ 6
+& 7 Exporter import
++ 7
+- 7
+- 6
++ 6
++ 7
+- 7
+- 6
++ 6
+& 8 vars BEGIN
++ 8
+- 8
+& 9 vars BEGIN
++ 9
+& a warnings BEGIN
++ a
+- a
+@ 0 0 1
+& b warnings::register import
++ b
+& c warnings::register mkMask
++ c
+- c
++ c
+- c
+- b
+- 9
++ 9
++ 4
++ 3
+- 3
+- 4
+- 9
+& d vars import
++ d
+- d
+- 6
++ 6
+& e Config BEGIN
++ e
++ 4
+- 4
+- e
+& f Config BEGIN
++ f
+& 10 strict unimport
++ 10
++ 3
+- 3
+- 10
+- f
+& 11 Config TIEHASH
++ 11
+- 11
+& 12 Config import
++ 12
+- 12
+- 6
+& 13 Memoize BEGIN
++ 13
++ 4
+- 4
+- 13
+@ 1 0 0
+& 14 Memoize BEGIN
++ 14
++ 10
+- 10
+- 14
+& 15 Memoize BEGIN
++ 15
++ 10
+- 10
+- 15
+& 16 Memoize BEGIN
++ 16
++ 10
+- 10
+- 16
+& 17 Memoize BEGIN
++ 17
++ 10
+- 10
+- 17
++ 7
+- 7
+- 5
++ 5
+& 18 ChiSegmenter BEGIN
++ 18
+- 18
+& 19 Dumpvalue BEGIN
++ 19
++ 4
+- 4
+- 19
+& 1a Dumpvalue BEGIN
++ 1a
++ 10
++ 3
+- 3
+- 10
+- 1a
+& 1b Dumpvalue BEGIN
++ 1b
++ 10
++ 3
+- 3
+- 10
+- 1b
+- 5
++ 5
+& 1c Data::Serializer BEGIN
++ 1c
+& 1d warnings import
++ 1d
+- 1d
+- 1c
++ 1c
++ 4
+- 4
+- 1c
++ 1c
++ d
+- d
+- 1c
++ 1c
++ 7
+- 7
+- 1c
++ 1c
+& 1e IO::File BEGIN
++ 1e
+- 1e
++ 1e
++ 4
+- 4
+- 1e
+& 1f IO::File BEGIN
++ 1f
++ 7
+- 7
+- 1f
++ 1f
+& 20 Symbol BEGIN
++ 20
+- 20
++ 7
+- 7
+- 1f
++ 1f
+& 21 SelectSaver BEGIN
++ 21
++ 7
+- 7
+- 21
++ 21
++ 7
+- 7
+- 21
+- 1f
++ 1f
+& 22 IO::Seekable BEGIN
++ 22
+- 22
++ 22
++ 7
+- 7
+- 22
++ 22
++ 4
+- 4
+- 22
+& 23 IO::Seekable BEGIN
++ 23
+& 24 IO::Handle BEGIN
++ 24
+- 24
++ 24
++ 4
+- 4
+- 24
+& 25 IO::Handle BEGIN
++ 25
++ 7
+- 7
+- 25
++ 25
++ 7
+- 7
+- 25
++ 25
+- 25
++ 25
+& 26 IO BEGIN
++ 26
+- 26
++ 26
++ 7
+- 7
+- 26
++ 26
++ 4
+- 4
+- 26
++ 26
++ 1d
+- 1d
+- 26
+& 27 XSLoader load
++ 27
+& 28 DynaLoader dl_find_symbol
++ 28
+- 28
+& 29 DynaLoader dl_load_file
++ 29
+- 29
+& 2a DynaLoader dl_undef_symbols
++ 2a
+- 2a
++ 28
+- 28
+& 2b DynaLoader dl_install_xsub
++ 2b
+- 2b
+& 2c IO bootstrap
++ 2c
+@ 0 0 1
+- 2c
+- 27
+- 25
+& 2d IO::Handle BEGIN
++ 2d
++ 10
++ 3
+- 3
+- 10
+- 2d
+- 23
++ 23
+& 2e Fcntl BEGIN
++ 2e
+- 2e
++ 27
++ 28
+- 28
++ 29
+@ 1 0 0
+- 29
++ 2a
+- 2a
++ 28
+- 28
++ 2b
+- 2b
+& 2f Fcntl bootstrap
++ 2f
+- 2f
+- 27
++ 7
+- 7
+- 23
++ 7
+- 7
+- 1f
++ 1f
+& 30 File::Spec BEGIN
++ 30
++ 4
+- 4
+- 30
++ 30
++ d
+- d
+- 30
+& 31 File::Spec::Unix BEGIN
++ 31
++ 4
+- 4
+- 31
++ 31
++ d
+- d
+- 31
+& 32 File::Spec::Unix BEGIN
++ 32
++ 10
++ 3
+- 3
+- 10
+- 32
+- 1f
++ 7
+- 7
++ 7
+- 7
+- 1c
++ 7
+- 7
+- 5
++ 5
+& 33 Config::General BEGIN
++ 33
++ 4
+- 4
+- 33
++ 33
++ 1d
+- 1d
+- 33
++ 33
+& 34 English BEGIN
++ 34
+& 35 warnings unimport
++ 35
+- 35
+- 34
+@ 0 0 1
+& 36 English import
++ 36
++ 7
+& 37 Exporter export
++ 37
+& 38 Exporter as_heavy
++ 38
+& 39 Exporter::Heavy BEGIN
++ 39
++ 4
+- 4
+- 39
++ 39
++ 10
++ 3
+- 3
+- 10
+- 39
+- 38
+& 3a Exporter::Heavy heavy_export
+* 3a
+- 37
+- 7
+- 36
+- 33
++ 33
++ 7
+- 7
+- 33
++ 33
+& 3b FileHandle BEGIN
++ 3b
+- 3b
++ 3b
++ 4
+- 4
+- 3b
+& 3c FileHandle BEGIN
++ 3c
++ 10
++ 3
+- 3
+- 10
+- 3c
++ 7
+- 7
+& 3d FileHandle import
++ 3d
++ 37
++ 38
+- 38
+* 3a
+- 37
++ 37
++ 38
+- 38
+* 3a
+- 37
+- 3d
+- 33
+& 3e Config::General BEGIN
++ 3e
+& 3f File::Spec::Functions BEGIN
++ 3f
+- 3f
++ 3f
++ 4
+- 4
+- 3f
++ 3f
++ d
+- d
+- 3f
+& 40 File::Spec::Functions BEGIN
++ 40
++ 10
++ 3
+- 3
+- 10
+- 40
+& 41 UNIVERSAL can
++ 41
+- 41
+@ 1 0 0
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 41
+- 41
++ 7
+- 7
+- 3e
++ 3e
+& 42 File::Glob BEGIN
++ 42
++ 4
+- 4
+- 42
+& 43 File::Glob BEGIN
++ 43
+- 43
++ 27
++ 28
+- 28
++ 29
+- 29
++ 2a
+- 2a
++ 28
+- 28
++ 2b
+- 2b
+& 44 File::Glob bootstrap
++ 44
+- 44
+- 27
+& 45 File::Glob GLOB_CSH
++ 45
+& 46 File::Glob AUTOLOAD
++ 46
+& 47 File::Glob constant
++ 47
+- 47
+& 48 File::Glob GLOB_BRACE
+* 48
+- 46
++ 46
++ 47
+- 47
+& 49 File::Glob GLOB_NOMAGIC
+* 49
+- 46
++ 46
++ 47
+- 47
+& 4a File::Glob GLOB_QUOTE
+* 4a
+- 46
++ 46
++ 47
+- 47
+& 4b File::Glob GLOB_TILDE
+* 4b
+- 46
++ 46
++ 47
+- 47
+& 4c File::Glob GLOB_ALPHASORT
+* 4c
+- 46
+- 45
+& 4d File::Glob import
++ 4d
+* 7
++ 37
++ 38
+- 38
+* 3a
+- 37
+- 4d
+- 3e
+& 4e Config::General BEGIN
++ 4e
+& 4f Carp BEGIN
++ 4f
++ 7
+- 7
+- 4f
+& 50 Carp BEGIN
++ 50
++ 10
++ 3
+- 3
+- 10
+- 50
++ 50
++ 35
+- 35
+- 50
+- 4e
++ 4e
++ 7
+- 7
+- 4e
++ 4e
++ 7
+- 7
+- 4e
+& 51 Config::General BEGIN
++ 51
++ d
+- d
+- 51
++ 51
+& 52 base BEGIN
++ 52
++ 4
++ 3
+- 3
+- 4
+- 52
++ 52
++ d
+- d
+- 52
+& 53 base import
++ 53
+& 54 UNIVERSAL isa
++ 54
+- 54
+& 55 base has_version
++ 55
+- 55
+& 56 base has_fields
++ 56
+- 56
+& 57 base has_attr
++ 57
+- 57
+- 53
+- 51
+@ 0 0 1
++ 7
+- 7
+- 5
++ 5
+& 58 File::Util BEGIN
++ 58
+- 58
++ 58
++ 4
+- 4
+- 58
++ 58
++ d
+- d
+- 58
++ 58
++ 7
+- 7
+- 58
++ 58
+& 59 AutoLoader BEGIN
++ 59
++ 4
+- 4
+- 59
++ 59
+- 59
+& 5a AutoLoader BEGIN
++ 5a
+- 5a
+@ 1 0 0
+& 5b AutoLoader BEGIN
++ 5b
++ 10
++ 3
+- 3
+- 10
+- 5b
+& 5c AutoLoader BEGIN
++ 5c
++ 10
++ 3
+- 3
+- 10
+- 5c
+& 5d AutoLoader BEGIN
++ 5d
++ 10
++ 3
+- 3
+- 10
+- 5d
+& 5e AutoLoader import
++ 5e
+- 5e
+- 58
++ 58
+& 5f Class::OOorNO BEGIN
++ 5f
++ 4
+- 4
+- 5f
++ 5f
++ d
+- d
+- 5f
++ 5f
++ 7
+- 7
+- 5f
++ 7
++ 37
++ 38
+- 38
+* 3a
+- 37
+- 7
+- 58
+& 60 File::Util BEGIN
++ 60
+- 60
+& 61 File::Util BEGIN
++ 61
+& 62 constant BEGIN
++ 62
++ 4
+- 4
+- 62
++ 62
+- 62
++ 62
++ b
++ c
+- c
++ c
+- c
+- b
+- 62
+& 63 constant BEGIN
++ 63
++ 10
++ 3
+- 3
+- 10
+- 63
+& 64 constant import
++ 64
+- 64
+- 61
++ 61
++ 64
+- 64
+- 61
++ 61
++ 64
+- 64
+- 61
++ 60
+- 60
+& 65 File::Util BEGIN
++ 65
+- 65
+@ 0 0 1
+& 66 Fcntl AUTOLOAD
++ 66
+& 67 Fcntl constant
++ 67
+- 67
+& 68 Fcntl __ANON__
+* 68
+- 66
++ 66
++ 67
+- 67
+& 69 Fcntl __ANON__
+* 69
+- 66
++ 7
+- 7
+- 5
++ 5
+& 6a Perl6::Say BEGIN
++ 6a
++ 4
+- 4
+- 6a
++ 6a
++ 1d
+- 1d
+- 6a
+& 6b Perl6::Say BEGIN
++ 6b
++ 7
+- 7
+- 6b
++ 6b
+& 6c Scalar::Util BEGIN
++ 6c
++ 4
+- 4
+- 6c
++ 6c
++ d
+- d
+- 6c
+& 6d List::Util BEGIN
++ 6d
++ 4
+- 4
+- 6d
++ 6d
++ d
+- d
+- 6d
++ 27
++ 28
+- 28
++ 29
+- 29
++ 2a
+- 2a
++ 28
+- 28
++ 2b
+- 2b
+& 6e List::Util bootstrap
++ 6e
+- 6e
+- 27
++ 7
+- 7
+- 6b
++ 6b
++ 7
+- 7
+- 6b
+& 6f Perl6::Say BEGIN
++ 6f
++ 10
++ 3
+- 3
+- 10
+- 6f
+& 70 Perl6::Say BEGIN
++ 70
++ 4
++ 3
+- 3
+- 4
+- 70
+& 71 Perl6::Say BEGIN
++ 71
++ 10
++ 3
+- 3
+- 10
+- 71
+& 72 Perl6::Say BEGIN
++ 72
++ 4
++ 3
+- 3
+- 4
+- 72
+& 73 Perl6::Say import
++ 73
+- 73
+- 5
+- 2
++ 2
+@ 1 0 0
++ 7
+- 7
+- 2
++ 2
+- 2
++ 2
++ 73
+- 73
+- 2
+& 74 Getopt::Std getopts
++ 74
+- 74
+& 75 ChiSegmenter new
++ 75
+& 76 Dumpvalue new
++ 76
+- 76
+- 75
+& 77 main usage
++ 77
+- 77
